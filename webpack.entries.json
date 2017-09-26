@@ -1,0 +1,5 @@
+{
+  "dummy-test/dummp-test-app": {
+    "dependencies": ["./dummy-test/lib/dummp-test-app/registration"]
+  }
+}

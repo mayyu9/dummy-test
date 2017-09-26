@@ -1,0 +1,23 @@
+exports[`test should render a DummpTestAppApplication with a placeholder 1`] = `
+<Application
+  locale="en-US"
+  translationsLoadingPlaceholder={
+    <ContentContainer
+      fill={false}
+      header={
+        <Header
+          endContent={null}
+          isSubheader={false}
+          startContent={null}
+          title="DummtTestEngine!!!!" />
+      } />
+  }>
+  <Connect(DummpTestAppContainer)
+    patientId={100}
+    service={
+      Object {
+        "getDummpTestApp": [Function],
+      }
+    } />
+</Application>
+`;

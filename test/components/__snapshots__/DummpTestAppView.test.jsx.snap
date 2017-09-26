@@ -1,0 +1,76 @@
+exports[`test should render a DummpTestAppView that has failed 1`] = `
+<ContentContainer
+  fill={false}
+  header={
+    <Header
+      endContent={null}
+      isSubheader={false}
+      startContent={null}
+      title="Success." />
+  }>
+  <ErrorView
+    buttonText=""
+    description="Error! Failed to load."
+    isGlyphHidden={true}
+    name="" />
+</ContentContainer>
+`;
+
+exports[`test should render a DummpTestAppView that has succeeded with a valid DummtTestEngine 1`] = `
+<ContentContainer
+  fill={false}
+  header={
+    <Header
+      endContent={null}
+      isSubheader={false}
+      startContent={null}
+      title="Success." />
+  }>
+  <ItemView
+    accessoryAlignment="alignCenter"
+    displays={
+      Array [
+        <ItemDisplay
+          isTruncated={false}
+          text="DummpTestApp" />,
+      ]
+    }
+    isTruncated={false}
+    layout="oneColumn"
+    textEmphasis="default" />
+</ContentContainer>
+`;
+
+exports[`test should render a DummpTestAppView view that is loading 1`] = `
+<ContentContainer
+  fill={false}
+  header={
+    <Header
+      endContent={null}
+      isSubheader={false}
+      startContent={null}
+      title="Success." />
+  }>
+  <NoDataView
+    heading="Not available."
+    isGlyphHidden={true}
+    subtext="" />
+</ContentContainer>
+`;
+
+exports[`test should render a DummpTestAppView with no data 1`] = `
+<ContentContainer
+  fill={false}
+  header={
+    <Header
+      endContent={null}
+      isSubheader={false}
+      startContent={null}
+      title="Success." />
+  }>
+  <NoDataView
+    heading="Not available."
+    isGlyphHidden={true}
+    subtext="" />
+</ContentContainer>
+`;
